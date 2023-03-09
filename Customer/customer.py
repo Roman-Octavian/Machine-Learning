@@ -10,8 +10,7 @@ from sklearn.metrics import confusion_matrix, accuracy_score
 from pickle import dump, load
 
 # Import data locally
-# Can't find file without absolute path
-dataFrame = pd.read_csv('C:/Users/Octavian/PycharmProjects/machine-learning/csv/customer_staying_or_not.csv')
+dataFrame = pd.read_csv('customer_staying_or_not.csv')
 dataFrame.head()
 
 # Remove missing data if any
